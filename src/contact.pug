@@ -1,0 +1,22 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Contact 
+        link(rel="stylesheet", href="./css/style.css")
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Aboreto&family=Inter:wght@500&family=Montserrat:wght@700&display=swap' rel='stylesheet')
+        link(rel="stylesheet", href="./css/style-link.css") 
+        body
+          .wrapper 
+            include header.pug
+            .contact-block 
+              .contacts-tel
+                h2 Contact
+                a(href='tel:+420 000 000 000') +420 000 000 000
+                a(href='https://www.google.com/maps/search/Na+Plze%C5%88ce+1166%2F0+150+00/@50.0648235,14.4076864,17z') Na Plze&ncaron;ce 1166/0 150 00
+              .iframe-block
+                iframe(src='https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d2561.1462047344976!2d14.4076864!3d50.0648235!3m2!1i1024!2i768!4f13.1!2m1!1sNa%20Plze%C5%88ce%201166%2F0%20150%2000!5e0!3m2!1sru!2sua!4v1661523839659!5m2!1sru!2sua' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade')
+            include footer.pug 
